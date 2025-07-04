@@ -1,7 +1,7 @@
 import mcode
 
 
-needs_conversion = input("Enter a string to convert to Morse code:")
+needs_conversion = input("Enter a string to convert to Morse code: ")
 
 for char in needs_conversion.upper():
     if char in mcode.MORSE_CODE_DICT:
